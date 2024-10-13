@@ -4,83 +4,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - José Eduardo da Silva Bezerra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;">
-    
-    <!-- Foto -->
-    <div style="text-align: center;">
-        <img src="imgs/icon.jpeg" style="width: 150px; height: 150px; border: 2px solid #949494; border-radius: 50%; margin: 0 auto;">
-    </div>
+<body>
 
-    <!-- Título -->
-    <h1 style="text-align: center;">José Eduardo da Silva Bezerra</h1>
-    <p style="text-align: center;">
-        Análise e Desenvolvimento de Sistemas<br>
-        eduardobezerra777@outlook.com • Recife - PE • +55 81 9 85766606<br>
-        <a href="https://github.com/duutheboy"><img src="imgs/github.svg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto;"></a>
-        <a href="https://www.linkedin.com/in/eduardobezerra87/"><img src="imgs/linkedin.svg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto;"></a>
-    </p>
+<div class="container mt-4">
+    <!-- Foto e Título -->
+    <div class="text-center mb-4">
+        <img src="imgs/icon.jpeg" class="profile-img" alt="Foto do Perfil">
+        <h1>José Eduardo da Silva Bezerra</h1>
+        <p>
+            Análise e Desenvolvimento de Sistemas<br>
+            eduardobezerra777@outlook.com • Recife - PE • +55 81 9 85766606<br>
+            <a href="https://github.com/duutheboy" class="icon"><img src="imgs/github.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/eduardobezerra87/" class="icon"><img src="imgs/linkedin.svg" alt="LinkedIn"></a>
+        </p>
+    </div>
 
     <hr>
 
     <!-- Experiência -->
-    <h2>Experiência</h2>
+    <section>
+        <h2>Experiência</h2>
+        <div class="mb-4">
+            <h3><img src="imgs/fusiondms_logo.jpeg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto"; alt="Logo Fusion"> FUSION BY NSTECH - Recife, Pernambuco</h3>
+            <p><strong>Analista de Sistemas Computacionais</strong> - 07/2024 - Presente</p>
+            <ul>
+                <li>Suporte Técnico ao sistema web de transporte e roteirização em PHP e ao aplicativo em Kotlin/Java.</li>
+                <li>Manipulação de dados em banco Oracle e integrações com ERP’s via API’s.</li>
+                <li>Desenvolvimento de scripts de automação com Python para testes automatizados.</li>
+                <li>Monitoramento de servidores AWS RDS com Grafana.</li>
+                <li>Validação e testes de melhorias dos sistemas de logística.</li>
+            </ul>
+            <p><strong>Estagiário de Suporte a Sistemas</strong> - 10/2023 - 07/2024</p>
+            <ul>
+                <li>Suporte ao sistema web em PHP com 96% de satisfação dos clientes.</li>
+                <li>Implementação de melhorias no sistema e documentação técnica.</li>
+                <li>Participação em metodologias ágeis como Kanban e Scrum.</li>
+            </ul>
+        </div>
 
-    <h3><img src="imgs/fusiondms_logo.jpeg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto;"> FUSION BY NSTECH - Recife, Pernambuco</h3>
-    <p><strong>Analista de Sistemas Computacionais</strong> - 07/2024 - Presente</p>
-    <ul>
-        <li>Suporte Técnico ao sistema web de transporte e roteirização em PHP (Fusion DMS) e ao aplicativo em Kotlin/Java (Fusion MobileCast).</li>
-        <li>Manipulação de dados em banco Oracle com SQL e PL/SQL (Views, Procedures) e integrações com ERP’s (Sankhya, Winthor, Protheus, SAP) via API’s com JSON/XML.</li>
-        <li>Desenvolvimento de scripts de automação com Python e PyAutoGui para facilitar testes automatizados.</li>
-        <li>Monitoramento de servidores AWS RDS com Grafana, assegurando disponibilidade e performance.</li>
-        <li>Colaboração na validação e testes de melhorias e funcionalidades dos sistemas de logística.</li>
-    </ul>
-
-    <p><strong>Estagiário de Suporte a Sistemas</strong> - 10/2023 - 07/2024</p>
-    <ul>
-        <li>Suporte ao sistema web em PHP (Fusion DMS) com 96% de satisfação dos clientes.</li>
-        <li>Análise de requisitos, elaboração de documentações técnicas e implementação de melhorias no sistema.</li>
-        <li>Adoção de metodologias ágeis como Kanban e Scrum para a entrega de projetos e soluções.</li>
-    </ul>
-
-    <h3><img src="imgs/grupotns_logo.jpeg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto;"> TNS LOGÍSTICA - Jaboatão dos Guararapes, Pernambuco</h3>
-    <p><strong>Aprendiz em Redes de Computadores</strong> - 08/2022 - 08/2023</p>
-    <ul>
-        <li>Suporte técnico N1 e troubleshooting.</li>
-        <li>Configuração de firewalls e gerenciamento do Active Directory no Windows Server 2012 R2.</li>
-        <li>Administração de redes e sistemas Linux/Ubuntu e Windows.</li>
-    </ul>
+        <div class="mb-4">
+            <h3><img src="imgs/grupotns_logo.jpeg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto"; alt="Logo Grupo TNS"> TNS LOGÍSTICA - Jaboatão dos Guararapes, Pernambuco</h3>
+            <p><strong>Aprendiz em Redes de Computadores</strong> - 08/2022 - 08/2023</p>
+            <ul>
+                <li>Suporte técnico N1 e troubleshooting.</li>
+                <li>Configuração de firewalls e gerenciamento do Active Directory.</li>
+                <li>Administração de redes Linux/Ubuntu e Windows.</li>
+            </ul>
+        </div>
+    </section>
 
     <hr>
 
     <!-- Formação -->
-    <h2>Formação</h2>
-    <h3>FACULDADE SENAC PERNAMBUCO - Recife, Pernambuco</h3>
-    <p><strong>CST - Análise e Desenvolvimento de Sistemas</strong> (2024-2026)</p>
-
-    <h3>ESCOLA TÉCNICA ESTADUAL MAXIMIANO ACCIOLY CAMPOS - Jaboatão dos Guararapes, Pernambuco</h3>
-    <p><strong>Técnico em Redes de Computadores</strong></p>
+    <section>
+        <h2>Formação</h2>
+        <p><strong><img src="imgs/senac_logo.jpg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto"; alt="Logo Fusion"> FACULDADE SENAC PERNAMBUCO - Recife, Pernambuco</strong><br>CST - Análise e Desenvolvimento de Sistemas (2024-2026)</p>
+        <p><strong><img src="imgs/etemac_logo.jpg" style="width: 20px; height: 20px; border-radius: 20%; margin: 0 auto"; alt="Logo Fusion"> ESCOLA TÉCNICA ESTADUAL MAXIMIANO ACCIOLY CAMPOS - Jaboatão dos Guararapes, Pernambuco</strong><br>Técnico em Redes de Computadores</p>
+    </section>
 
     <hr>
 
     <!-- Cursos e Certificados -->
-    <h2>Cursos e Certificados</h2>
-    <ul>
-        <li>Java - Completo com Orientação a Objetos - Udemy</li>
-        <li>Java Arquitetura com Spring e AWS - Cognizant + DIO</li>
-        <li>FAST - Frontend - CesarSchool</li>
-        <li>Desenvolvimento Java - DIO</li>
-        <li>Web API - CesarSchool</li>
-        <li>Curso de Angular 2 (v17+) - Udemy</li>
-    </ul>
+    <section>
+        <h2>Cursos e Certificados</h2>
+        <ul>
+            <li>Java - Completo com Orientação a Objetos - Udemy</li>
+            <li>Java Arquitetura com Spring e AWS - Cognizant + DIO</li>
+            <li>FAST - Frontend - CesarSchool</li>
+            <li>Desenvolvimento Java - DIO</li>
+            <li>Web API - CesarSchool</li>
+            <li>Curso de Angular 2 (v17+) - Udemy</li>
+        </ul>
+    </section>
 
     <hr>
 
     <!-- Habilidades -->
-    <h2>Habilidades</h2>
-    <p><strong>Hard Skills:</strong> JavaScript, Java, C#, Python, HTML/CSS, Lógica de Programação, SQL, Banco de Dados, Metodologias Ágeis, Linux</p>
-    <p><strong>Soft Skills:</strong> Resolução de Problemas, Comunicação Efetiva, Adaptabilidade, Trabalho em Equipe, Entendimento do Negócio</p>
-    <p><strong>Idiomas:</strong> Inglês - Intermediário, Espanhol - Intermediário</p>
+    <section>
+        <h2>Habilidades</h2>
+        <p><strong>Hard Skills:</strong> JavaScript, Java, C#, Python, HTML/CSS, Lógica de Programação, SQL, Banco de Dados, Metodologias Ágeis, Linux</p>
+        <p><strong>Soft Skills:</strong> Resolução de Problemas, Comunicação Efetiva, Adaptabilidade, Trabalho em Equipe</p>
+        <p><strong>Idiomas:</strong> Inglês - Intermediário, Espanhol - Intermediário</p>
+    </section>
+
+    <hr>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Formulário de Solicitação de Serviço</h2>
+        <form>
+            
+            <div class="mb-3">
+                <label for="nome" class="form-label"><i class="fas fa-user"></i> Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="sobrenome" class="form-label"><i class="fas fa-user"></i> Sobrenome</label>
+                <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="telefone" class="form-label"><i class="fas fa-phone"></i> Telefone</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="(XX) XXXX-XXXX" pattern="\([0-9]{2}\)\s[0-9]{4,5}-[0-9]{4}" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label"><i class="fas fa-envelope"></i> E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="mensagem" class="form-label"><i class="fas fa-comment"></i> Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="lingua" class="form-label"><i class="fas fa-globe"></i> Língua aplicada no serviço</label>
+                <select class="form-select" id="lingua" required>
+                    <option value="">Selecione uma língua</option>
+                    <option value="pt-br">Português (pt-BR)</option>
+                    <option value="en">Inglês</option>
+                    <option value="es">Espanhol</option>
+                    <option value="fr">Francês</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="arquivo" class="form-label"><i class="fas fa-file-upload"></i> Upload de Arquivo</label>
+                <input type="file" class="form-control" id="arquivo" accept=".pdf, .doc, .docx, .jpg, .jpeg, .png" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label"><i class="fas fa-code"></i> Linguagens Preferidas</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="java" value="java">
+                    <label class="form-check-label" for="java">Java</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="javascript" value="javascript">
+                    <label class="form-check-label" for="javascript">JavaScript</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="csharp" value="csharp">
+                    <label class="form-check-label" for="csharp">C#</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="php" value="php">
+                    <label class="form-check-label" for="php">PHP</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label"><i class="fas fa-database"></i> Tipo de Banco de Dados</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="database" id="mysql" value="mysql" required>
+                    <label class="form-check-label" for="mysql">MySQL</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="database" id="postgresql" value="postgresql" required>
+                    <label class="form-check-label" for="postgresql">PostgreSQL</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="database" id="mongodb" value="mongodb" required>
+                    <label class="form-check-label" for="mongodb">MongoDB</label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="turno" class="form-label"><i class="fas fa-clock"></i> Turno de preferência para reuniões</label>
+                <select class="form-select" id="turno" required>
+                    <option value="">Selecione o turno</option>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="horario" class="form-label"><i class="fas fa-clock"></i> Melhor horário sugerido para reuniões</label>
+                <input type="time" class="form-control" id="horario" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="dataEntrega" class="form-label"><i class="fas fa-calendar-alt"></i> Previsão de Entrega</label>
+                <input type="date" class="form-control" id="dataEntrega" required>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="reset" class="btn btn-secondary"><i class="fas fa-eraser"></i> Limpar</button>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </div>
+
+        </form>
+    </div>
+    
+
+</div>
 
 </body>
 </html>
